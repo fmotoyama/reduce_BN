@@ -1,0 +1,18 @@
+digraph {
+	node [fixedsize=true fontsize=20 shape=circle width=0.75]
+	edge [fontsize=20]
+	0 [label=0 shape=square]
+	1 [label=1 shape=square]
+	{
+		rank=same
+		1922318501184 [label=3]
+	}
+	{
+		rank=same
+		1922318501376 [label=5]
+	}
+	1922318501184 -> 0 [label=0 arrowhead=odot]
+	1922318501184 -> 1922318501376 [label=1 arrowhead=dot]
+	1922318501376 -> 1 [label=0 arrowhead=odot]
+	1922318501376 -> 0 [label=1 arrowhead=dot]
+}

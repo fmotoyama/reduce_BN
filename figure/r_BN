@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle]
+	graph [overlap="0:" splines=curved]
+	edge [arrowsize=0.5 color="#00000080"]
+	4 -> 4
+	12 -> 4
+	9 -> 9
+	4 -> 9
+	12 -> 9
+	12 -> 12
+}

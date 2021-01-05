@@ -1,0 +1,23 @@
+digraph {
+	graph [constraint=false rankdir=LR]
+	node [fillcolor=white fixedsize=true fontsize=20 shape=circle style=filled width=0.75]
+	edge [penwidth=1 style=dashed]
+	root [label=4 fillcolor="#efe4b0"]
+	3 -> root [penwidth=2 style=solid]
+	5 -> 3 [penwidth=2 style=solid]
+	2 -> 5 [penwidth=2 style=solid]
+	-1 [label=9 fillcolor="#efe4b0"]
+	-1 -> 2
+	-2 [label=12 fillcolor="#efe4b0"]
+	-2 -> 2
+	6 -> 2 [penwidth=2 style=solid]
+	-3 [label=4 fillcolor="#efe4b0"]
+	-3 -> 6
+	-4 [label=12 fillcolor="#efe4b0"]
+	-4 -> 6
+	-5 [label=4 fillcolor="#efe4b0"]
+	-5 -> 5
+	-6 [label=12 fillcolor="#efe4b0"]
+	-6 -> 5
+	5 -> root
+}
